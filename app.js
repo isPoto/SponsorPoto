@@ -1,9 +1,6 @@
-function copy() {
-    var text = "137838-1719";
-    var textarea = document.createElement("textarea");
-    textarea.value = text;
-    document.body.appendChild(textarea);
-    textarea.select();
-    document.execCommand('copy');
-    document.body.removeChild(textarea)
+button.addEventListenner('click', function() {
+    var text = '137838-1719'
+    if(navigator.clipboard) {
+        navigator.clipboard.writeText(text)
+    }
 }
