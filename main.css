@@ -8,3 +8,15 @@ body {
     display: grid;
     place-items: center;
 }
+
+p {
+    margin-top: 0.1em;
+}
+
+h2 {
+    margin-top: -0.2em;
+}
+
+#social {
+    margin-top: 2em;
+}
